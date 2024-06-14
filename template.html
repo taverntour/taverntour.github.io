@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entry Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="template-page">
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="submit.html">Submit a new review</a>
+        </nav>
+        <div class="title">Tavern Tour</div>
+        <div class="nav-buttons">
+            <button id="prev-entry">&lt;</button>
+            <button id="next-entry">&gt;</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="entry">
+                <div class="entry-header">
+                    <!-- Title, Rating, and Date -->
+                    <div id="entry-title" class="entry-title"></div>
+                    <div class="entry-rating-date">
+                        <span id="entry-rating"></span>
+                        <span id="entry-date"></span>
+                    </div>
+                </div>
+                <!-- Main Content with Image -->
+                <div class="entry-content">
+                    <!-- Main Image Before Content -->
+                    <div class="entry-main-image">
+                        <img id="entry-image-1" src="" alt="">
+                    </div>
+                    <!-- Text Content -->
+                    <div id="entry-text-content" class="entry-text-content"></div>
+                </div>
+                <!-- Second Image at the Bottom -->
+                <div class="entry-secondary-image">
+                    <img id="entry-image-2" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="template.js"></script>
+</body>
+</html>
